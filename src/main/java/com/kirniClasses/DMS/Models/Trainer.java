@@ -3,8 +3,8 @@
  */
 package com.kirniClasses.DMS.Models;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
 /*
  *@author Soujanya Kirni
@@ -40,12 +40,6 @@ public class Trainer {
 	public String toString() {
 		return "Trainer [trainerId=" + trainerId + ", trainerName=" + trainerName + ", trainerAddress=" + trainerAddress
 				+ "]";
-	}
-	
-	
-	
-	
-	
-	
+	}	
 	
 }
